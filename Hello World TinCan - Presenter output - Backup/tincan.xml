@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://www.example.com/helloworld" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">Hello World TinCan</name>
+			<description lang="und" />
+			<launch lang="und">presentation.html</launch>
+		</activity>
+		<activity id="http://www.example.com/helloworld/5ooSXjgfSit2" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">Select one</name>
+			<description lang="und">Select one</description>
+		</activity>
+		<activity id="http://www.example.com/helloworld/256" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Hello World</name>
+			<description lang="und">Hello World</description>
+		</activity>
+		<activity id="http://www.example.com/helloworld/6dwU3QoebiY2" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results Slide</name>
+			<description lang="und">Results Slide</description>
+		</activity>
+		<activity id="http://www.example.com/helloworld/5zpZf42a1jB2" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Please select one below</name>
+			<description lang="und">Please select one below</description>
+		</activity>
+		<activity id="http://www.example.com/helloworld/5zpZf42a1jB2/60Y310Rhq23" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Please select one below</name>
+			<description lang="und">Please select one below</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5cdexurD8bM</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5cdexurD8bM</id>
+					<description lang="und">Correct</description>
+				</component>
+				<component>
+					<id>choice_67UX8aqWK0U</id>
+					<description lang="und">BBB</description>
+				</component>
+				<component>
+					<id>choice_6cRAWfVVrwZ</id>
+					<description lang="und">CCC</description>
+				</component>
+				<component>
+					<id>choice_6h0w6Nf6Y4q</id>
+					<description lang="und">DDD</description>
+				</component>
+			</choices>
+		</activity>
+	</activities>
+</tincan>
